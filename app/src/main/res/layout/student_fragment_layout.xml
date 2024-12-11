@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:text="Student"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nameEdt"
+        android:hint="Name student"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/mssvEdt"
+        android:hint="Student ID"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:text="Cancel"
+        android:textSize="18sp"
+        android:backgroundTint="#E91E63"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

@@ -31,7 +31,7 @@ class DialogStudent : DialogFragment() {
 
             if (name.isNotEmpty() && mssv.isNotEmpty()) {
                 // Gọi hàm thêm sinh viên vào danh sách từ Activity chính
-                (activity as? MainActivity)?.addStudent(name, mssv)
+//                (activity as? MainActivity)?.addStudent(name, mssv)
                 dismiss() // Đóng dialog sau khi thêm sinh viên
             } else {
                 Toast.makeText(context, "Please enter valid information", Toast.LENGTH_SHORT).show()
